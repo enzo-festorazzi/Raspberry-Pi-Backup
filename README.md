@@ -1,5 +1,7 @@
 # <div align="center">Bakcup Raspberry Pi
-![](images/front.png)
+<p align="center">
+<img src="images/front.png">
+</p>
 
 # <div align="center">Automatizar backup's periodicos en Raspberry Pi
 
@@ -20,4 +22,6 @@ sudo /bin/bash -c '( echo "59 23 * * 0 /usr/local/bin/Backup.sh" >> /etc/crontab
 ```
   
 ## Agradecimientos ##
-  
+Quiero agradecer a <a href="https://github.com/Drewsif/" target="_blank">@Drewsif</a> por <a href="https://github.com/Drewsif/PiShrink" target="_blank">PiShrink</a> y a <a href="https://github.com/The-Exterminator" target="_blank">@The-Exterminator</a> por este articulo <a href="https://github.com/The-Exterminator/PiShrink-to-Crontab" target="_blank">PiShrink-to-Crontab</a>.
+
+  Las imagenes son de <a href="https://crontab.guru" target="_blank">aqui</a>.
