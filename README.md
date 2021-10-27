@@ -3,13 +3,13 @@
 <img src="images/front.png">
 </p>
 
-# <div align="center">Automatizar backup's periodicos en Raspberry Pi
+# <div align="center">Automatizar backup's periódicos en Raspberry Pi
 
 * Paso 1: Descargar "pishrink.sh" y "Backup.sh"  
 * Paso 2: Instalar "pishrink.sh" y "Backup.sh"
 * Paso 3: Dar permisos de ejecución a "pishrink.sh" y "Backup.sh"
 * Paso 4: Modificar valores "```RUTA_ABSOLUTA_DEL_BAKCUP```" y "```NOMBRE_DEL_ARCHIVO_DEL_BACKUP```" en "Backup.sh"
-* Paso 5: Programar tarea. (La linea ejecutara el backup todos los domingos). <a href="https://crontab.guru" target="_blank">Ayuda</a>
+* Paso 5: Programar tarea. (La línea ejecutara el backup todos los domingos). <a href="https://crontab.guru" target="_blank">Ayuda</a>
   
 ## Comandos ##
 ```bash 
@@ -24,4 +24,4 @@ sudo /bin/bash -c '( echo "59 23 * * 0 /usr/local/bin/Backup.sh" >> /etc/crontab
 ## Agradecimientos ##
 Quiero agradecer a <a href="https://github.com/Drewsif/" target="_blank">@Drewsif</a> por <a href="https://github.com/Drewsif/PiShrink" target="_blank">PiShrink</a> y a <a href="https://github.com/The-Exterminator" target="_blank">@The-Exterminator</a> por este articulo <a href="https://github.com/The-Exterminator/PiShrink-to-Crontab" target="_blank">PiShrink-to-Crontab</a>.
 
-  Las imagenes son de <a href="https://iconduck.com/" target="_blank">aqui</a>. Las cuales son Open Source.
+  Las imágenes son de <a href="https://iconduck.com/" target="_blank">aquí</a>. Las cuales son Open Source.
