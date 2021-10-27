@@ -1,4 +1,4 @@
-# <div align="center">Bakcup Raspberry Pi
+# <div align="center">Backup Raspberry Pi
 <p align="center">
 <img src="images/front.png">
 </p>
