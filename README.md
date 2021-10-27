@@ -24,4 +24,4 @@ sudo /bin/bash -c '( echo "59 23 * * 0 /usr/local/bin/Backup.sh" >> /etc/crontab
 ## Agradecimientos ##
 Quiero agradecer a <a href="https://github.com/Drewsif/" target="_blank">@Drewsif</a> por <a href="https://github.com/Drewsif/PiShrink" target="_blank">PiShrink</a> y a <a href="https://github.com/The-Exterminator" target="_blank">@The-Exterminator</a> por este articulo <a href="https://github.com/The-Exterminator/PiShrink-to-Crontab" target="_blank">PiShrink-to-Crontab</a>.
 
-  Las imágenes son de <a href="https://iconduck.com/" target="_blank">aquí</a>. Las cuales son Open Source.
+  Las imágenes son de <a href="https://iconduck.com/" target="_blank">aquí</a>, las cuales son Open Source.
