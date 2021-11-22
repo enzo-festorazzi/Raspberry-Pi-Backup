@@ -10,6 +10,7 @@
 * Paso 3: Dar permisos de ejecución a "pishrink.sh" y "Backup.sh"
 * Paso 4: Modificar valores "```RUTA_ABSOLUTA_DEL_BAKCUP```" y "```NOMBRE_DEL_ARCHIVO_DEL_BACKUP```" en "Backup.sh"
 * Paso 5: Programar tarea. (La línea ejecutara el backup todos los domingos). <a href="https://crontab.guru" target="_blank">Ayuda</a>
+* Paso 6: Reiniciar servicios Cron.
   
 ## Comandos ##
 ```bash 
@@ -18,6 +19,7 @@ sudo mv pishrink.sh /usr/local/bin/ | sudo mv Backup.sh /usr/local/bin/
 sudo chmod +x /usr/local/bin/pishrink.sh  | sudo chmod +x /usr/local/bin/Backup.sh
 sudo nano /usr/local/bin/Backup.sh
 sudo /bin/bash -c '( echo "59 23 * * 0 /usr/local/bin/Backup.sh" >> /etc/crontab )'
+sudo systemctl restart cron
 ```
   
 ## Agradecimientos ##
