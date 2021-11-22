@@ -14,7 +14,7 @@
 ## Comandos ##
 ```bash 
 wget https://github.com/enzobusca/Raspberry-Pi-Backup/blob/main/Backup.sh | wget https://github.com/enzobusca/Raspberry-Pi-Backup/blob/main/pishrink.sh
-sudo mv pishrink.sh /usr/local/bin/ | sudo mv Bakcup.sh /usr/local/bin/
+sudo mv pishrink.sh /usr/local/bin/ | sudo mv Backup.sh /usr/local/bin/
 sudo chmod +x /usr/local/bin/pishrink.sh  | sudo chmod +x /usr/local/bin/Bakcup.sh
 sudo nano /usr/local/bin/Backup.sh
 sudo crontab -e
