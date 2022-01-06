@@ -22,7 +22,7 @@ sudo chmod +x /usr/local/bin/pishrink.sh  | sudo chmod +x /usr/local/bin/Backup.
 ```bash
 sudo nano /usr/local/bin/Backup.sh
 ```
-* Paso 5: Programar tarea. (La línea ejecutara el backup todos los domingos). <a href="https://crontab.guru" target="_blank">Ayuda</a>
+* Paso 5: Programar tarea. (La línea ejecutara el backup todos los domingos al comienzo del día). <a href="https://crontab.guru" target="_blank">Ayuda</a>
 ```bash
 sudo crontab -e
 59 23 * * 0 /usr/local/bin/Backup.sh
