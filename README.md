@@ -35,4 +35,4 @@ sudo systemctl restart cron
 ## Agradecimientos ##
 Quiero agradecer a <a href="https://github.com/Drewsif/" target="_blank">@Drewsif</a> por <a href="https://github.com/Drewsif/PiShrink" target="_blank">PiShrink</a> y a <a href="https://github.com/The-Exterminator" target="_blank">@The-Exterminator</a> por este articulo <a href="https://github.com/The-Exterminator/PiShrink-to-Crontab" target="_blank">PiShrink-to-Crontab</a>.
 
-  Imágenes de <a href="https://iconduck.com/" target="_blank">Iconduck</a>.
+Imágenes de <a href="https://iconduck.com/" target="_blank">Iconduck</a>.
